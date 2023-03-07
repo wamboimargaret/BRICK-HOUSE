@@ -1,0 +1,113 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 19px 19px;
+    text-align: center;
+
+}
+.head{
+    display: flex;
+    padding: 19px 19px;
+    background-color: #FFD600;
+    
+}
+
+    
+
+.icons i{
+padding: 19px 19px;
+
+}
+.box{
+    display: flex;
+}
+.box img{
+    width: 70%;
+}
+.selectb{
+    background-color: #FFD600;
+    color: white;
+    padding: 15px;
+    width: 225px;
+}
+.select button{
+    padding: 10px;
+
+}
+.select input{
+    padding: 10px 20px;
+}
+#slide{
+    background-color: #FFD600;
+}
+
+.shop img{
+    width: 100%;
+}
+.shop {
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    text-align: center;
+}
+.series{
+    background-color: #FFD600;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    margin-left: 43%;
+}
+.discount{
+display: flex;
+}
+.discount img{
+    width: 90%;
+    
+}
+.discount p{
+    font-weight: 600;
+}
+.input{
+    padding: 13px;
+    width: 40%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.send{
+    margin-left: -10.1%;
+    padding: 13px;
+    width: 10%;
+    background-color:#E70062;
+    color: white;
+    border-radius:10px ;
+}
+.diss{
+    display: flex;
+    background-color:#FFD600;
+    padding: 15px;
+    
+    
+}
+.diss h3{
+    margin-left: 10%;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.blue{
+    background-color: #26004C;
+}
