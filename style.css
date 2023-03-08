@@ -1,3 +1,12 @@
+@media (max-width: 600px) {
+    body {
+      
+    }
+  }
+
+
+
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -13,18 +22,40 @@
 .head{
     display: flex;
     padding: 19px 19px;
-    background-color: #FFD600;
-    
+    background-color: #FFD600;    
+}
+.BH{
+  justify-content: space-between; 
+  margin-left: 20px;
+  
 }
 
+.icons{
+    margin-left: 60%;
+}
     
 
 .icons i{
 padding: 19px 19px;
 
 }
+
+.BH input{
+    padding: 10px;
+    margin-left: 90%;
+    margin-top: -50%;
+    
+}
+.BH i{
+    margin-left: 80%;
+    margin-top: -20%;
+    display: inline-block;
+}
+
+
 .box{
     display: flex;
+    margin-top: 25px;
 }
 .box img{
     width: 70%;
@@ -37,10 +68,19 @@ padding: 19px 19px;
 }
 .select button{
     padding: 10px;
+    margin-left: 10px ;
 
 }
 .select input{
     padding: 10px 20px;
+}
+
+.select{
+    margin-left:  -15%;
+    padding: 30px;
+    border: solid #252525;
+    border-radius: 20px;
+    
 }
 #slide{
     background-color: #FFD600;
@@ -110,4 +150,38 @@ display: flex;
 }
 .blue{
     background-color: #26004C;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+
+.logos img{
+    width: 33%;
+    height: fit-content;
+}
+.logos2{
+    display: flex;
+    flex-direction: row;
+}
+.logos2 img{
+    width: 33%;
+    height: fit-content;
+}
+.logos3{
+    display: flex;
+    flex-direction: row;
+}
+.logos3 img{
+    width: 25%;
+    height: fit-content;
+}
+.logos4{
+    display: flex;
+    flex-direction: row;
+}
+.logos4 img{
+    width: 25%;
+    height: fit-content;
 }
